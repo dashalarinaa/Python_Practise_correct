@@ -28,20 +28,20 @@
 # }
 
 
-d = {
-1: 'АВЕИНОРСТ', 
-2: 'ДКЛМПУ',
-3: 'БГЁЬЯ', 
-4: 'ЙЫ', 
-5: 'ЖЗХЦЧ', 
-8: 'ШЭЮ', 
-10: 'ФЩЪ' }
- print(d.lower())
-k = 'ноутбук'
+# d = {
+# 1: 'АВЕИНОРСТ', 
+# 2: 'ДКЛМПУ',
+# 3: 'БГЁЬЯ', 
+# 4: 'ЙЫ', 
+# 5: 'ЖЗХЦЧ', 
+# 8: 'ШЭЮ', 
+# 10: 'ФЩЪ' }
+#  print(d.lower())
+# k = 'ноутбук'
 
-print(d)
-result = [key for letter in k for key, value in d.items() if letter in value]
-print(sum(result))
+# print(d)
+# result = [key for letter in k for key, value in d.items() if letter in value]
+# print(sum(result))
 
 
 # points_en = {1: 'AEIOULNSTR', 2: 'DG', 3: 'BCMP', 4: 'FHVWY', 5: 'K', 8: 'JX', 10: 'QZ'}
@@ -58,3 +58,42 @@ print(sum(result))
 #             if i in points_ru[j]:
 #                 count = count + j
 # print(count)
+
+
+# print('Как тебя зовут?')
+# name = input()
+# print('Привет,', name)
+
+# print('a', 'b', 'c', sep='', end='')
+
+# print('a', 'b', 'c', sep='*')
+# print('d', 'e', 'f', sep='**', end='')
+# print('g', 'h', 'i', sep='+', end='%')
+# print('j', 'k', 'l', sep='-', end='\n')
+# print('m', 'n', 'o', sep='/', end='!')
+# print('p', 'q', 'r', sep='1', end='%')
+# print('s', 't', 'u', sep='&', end='\n')
+# print('v', 'w', 'x', sep='%')
+# print('y', 'z', sep='/', end='!')
+
+# a = 2 % 5
+# print(a)
+
+# a = 15 // (16 % 7)
+# b = 34 % a * 5 - 29 % 5 * 2
+# print(a + b)
+
+# a = 82 // 3 ** 2 % 7
+# print(a)
+
+# print("The world's a little blurry", "Or maybe it's my eyes", end='!!!', sep=' :) ')
+# s = 13
+# k = -5
+# d = s + 2
+# s = d
+# k = 2 * s
+# print(s + k + d)
+
+a = 17 // (23 % 7)
+b = 34 % a * 5 - 29 % 4 * 3
+print(a * b)
