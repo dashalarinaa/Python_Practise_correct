@@ -11,3 +11,14 @@ def get_info():
 
 def search():
     return input('Введите имя или телефон:\n')
+
+def deletion():
+    return input('Введите имя или телефон, который нужно удалить: ')
+
+def what_change():
+    n1 = input ('Что заменить (Введите имя или телефон): ')
+    
+    return n1
+def changing():
+    n2 = input('На что заменить: ')
+    return n2
