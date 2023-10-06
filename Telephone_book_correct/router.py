@@ -6,6 +6,10 @@ def main():
         ans = select_op()
         if ans == 1:
             add_info(get_info())
+        if ans == 2:
+            delete_contact(deletion())
+        if ans == 3:
+            make_changes(what_change(), changing())
         if ans == 4:
             search_info(search())
         if ans == 5:
